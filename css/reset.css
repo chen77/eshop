@@ -1,0 +1,87 @@
+/* -------------------------------------------------------------
+======	RESET
+------------------------------------------------------------- */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {display: block;margin:0;padding:0;}
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+:hover, :focus, :active { outline: none; }
+html, button, input, select, textarea {
+	font-family: "Open sans", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+	font-weight: 400; /* normal */
+	color: #555; 
+	font-smooth:always;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);}
+
+body { margin: 0; font-size: 13px; line-height: 1.6; }
+
+a { 
+	color: #666; font-weight: normal;
+	cursor: pointer;  text-decoration: none;
+	transition:color 0.2s ease; -moz-transition:color 0.2s ease; -webkit-transition:color 0.2s ease; -o-transition:color 0.2s ease;
+}
+
+a:hover { color: #0181ca; text-decoration: none;} 
+
+
+p{margin: 0 0 1em;}
+p:last-child {margin-bottom: 0;}
+
+a:visited{opacity:0.9;}
+a:active, a:focus{position:relative;}
+abbr[title]{border-bottom:1px dotted}
+dfn{font-style:italic}
+hr{display:block; height:1px; border:0; border-top:1px solid #ddd; margin:1em 0; padding:0}
+pre, code, kbd, samp{font-family:monospace,monospace; _font-family:'courier new',monospace; font-size:1em}
+q{quotes:none}
+q:before, q:after{content:""; content:none}
+blockquote { margin: 1em 1em 1em 0; padding: 1em; border-left: 1px solid #DDD; font-style: italic; color: #999;}
+blockquote p {font-size: 1.1em;line-height: 2em;margin-bottom: 0;}
+blockquote small {display: block;font-size: 1em;line-height: 1.6em;color: #bfbfbf; text-align: right;}
+blockquote small:before {content: '\2014 \00A0';}
+b, strong{font-weight:700}
+small{font-size:85%; color: #999;}
+sub, sup{font-size:75%; line-height:0; position:relative; vertical-align:baseline}
+sup{top:-0.5em}
+sub{bottom:-0.25em}
+dt{font-weight: 700;}
+ul, ol{list-style:none; list-style-image:none; margin:0; padding:0;}
+img{border:0; -ms-interpolation-mode:bicubic; vertical-align:middle}
+svg:not(:root){overflow:hidden}
+figure{margin:0}
+form{margin:0}
+fieldset{border:0; margin:0; padding:0}
+label{cursor:pointer}
+legend{border:0; *margin-left:-7px; padding:0;white-space: normal;}
+button, input, select, textarea{font-size:100%; margin:0; vertical-align:baseline; *vertical-align:middle}
+button, input{line-height:normal; *overflow:visible}
+table button, table input{*overflow:auto}
+button, input[type="button"], input[type="reset"], input[type="submit"]{cursor:pointer; -webkit-appearance:button}
+input[type="checkbox"], input[type="radio"]{box-sizing:border-box}
+input[type="search"]{-webkit-appearance:textfield; -moz-box-sizing:content-box; -webkit-box-sizing:content-box; box-sizing:content-box}
+input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}
+button::-moz-focus-inner, input::-moz-focus-inner{border:0; padding:0}
+textarea{overflow:auto; vertical-align:top; resize:vertical}
+table{border-collapse:collapse; border-spacing:0}
+td{vertical-align:top}
+div,form,img,ul,ol,li,p,dl,dt,dd,h1,h2,h3,h4,h5,h6 { margin: 0; padding: 0; border: 0;}
+ul,li { list-style: none }
+.chromeframe { margin: 1em 0; background: red; color: black; padding: 1em;}
+
+/*通用属性*/
+.left,.l,.v-l { float: left;}
+.right,.r,.v-r { float: right;}
+.area:after,.clear:after{display:block; overflow:hidden; clear:both; height:0; visibility:hidden; content:".";}
+.clear,.area{zoom:1;}
+.inline { font-size: 0; *word-spacing: -1px; }
+.inline li, .inline .inner,.inline li a,.inline dd,.inline dt { font-size: 12px; letter-spacing: normal; word-spacing: normal; vertical-align: top; }
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .inline { letter-spacing: -5px; }
+}
+/*ie6 支持png透明*/
+.bgpng{ background:url(../images/nav.png) no-repeat center 0px;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src="../images/nav.png");}
+.inline li, .inline .inner,.inline li a,.inline dd,.inline dt { display: inline-block; *display: inline; *zoom: 1; }
+/* 通用栏宽*/
